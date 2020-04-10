@@ -1,0 +1,165 @@
+* {
+font-family: Arial, Helvetica, sans-serif;
+margin: auto;
+padding: 0;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #000;
+}
+
+.container {
+width: 1140px;
+background-color: #000;
+}
+
+
+.container {
+    width: 1140px;
+}
+
+.clear {
+    clear: both;
+}
+
+.header {
+padding: 10px;
+}
+
+.logo {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 35%;
+}
+.menu {
+overflow: hidden;
+background-color: #222233;
+width: 90%;
+}
+
+.menu a {
+float: left;
+font-size: 16px;
+color: #aaccff;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+background-color:#222233;
+}
+
+.main::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.body {
+float: right;
+width: 62%;
+padding: 5px;
+margin-top: -240px;
+}
+
+.picture {
+float: left;
+margin-top: 20px;
+}
+
+.name {
+text-align: right;
+min-height: 300px;
+margin-left: 5%;
+margin-right: 5%;
+width: 90%;
+color: #aaccff;
+}
+
+p, label, li {
+color: #aaccff;
+font-size: 16px;
+margin-left: auto;
+margin-right: auto;
+}
+
+input, select, textarea {
+color: #aaccff;
+font-size: 14px;
+margin-left: auto;
+margin-right: auto;
+background-color: #000;
+}
+
+img {
+position: absolute;
+float: left;
+width: 30%;
+padding: 10px;
+}
+
+h2, h3, h4 {
+color: #aaccff;
+}
+
+
+.half1 {
+margin-top: 50px;
+float: left;
+}
+
+.half2 {
+margin-top: 12px;
+float: right;
+}
+
+
+.description {
+align-items: left;
+padding: 20px;
+background-color: rgb(211,211,211);
+color: #fff !important;
+}
+
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.column {
+float: left;
+width: 33%;
+}
+  
+.column-two {
+float: left;
+width: 66%;
+}
+  
+
+
+.head {
+align-items: left;
+padding: 20px;
+width: 100%;
+background-color:#a9a9a9 !important;
+}
+  
+.body2 {
+font-family: Arial, Helvetica, sans-serif;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+}
+
+.description p {
+color:#fff !important;
+}
+
+.wireframes {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 5%;
+color: #aaccff;
+}
